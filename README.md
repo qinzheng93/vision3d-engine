@@ -13,6 +13,14 @@
 
 Note: This repo will be merged into [Vision3d](https://github.com/qinzheng93/vision3d) in the future.
 
+## Installation
+
+Use the following command for installation:
+
+```bash
+python setup.py develop
+```
+
 ## Trainer
 
 There are two basic trainer out-of-box: `EpochBasedTrainer` and `IterBasedTrainer`. To train a model, a custom trainer class should be inherited from one of the basic trainer. For both trainers, you need to:
