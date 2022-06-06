@@ -11,6 +11,8 @@
 7. Automatic logging and TensorBoard support.
 8. Intermediate endpoint tensors management.
 
+Note: This repo will be merged into [Vision3d](https://github.com/qinzheng93/vision3d) in the future.
+
 ## Trainer
 
 There are two basic trainer out-of-box: `EpochBasedTrainer` and `IterBasedTrainer`. To train a model, a custom trainer class should be inherited from one of the basic trainer. For both trainers, you need to:
